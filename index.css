@@ -1,0 +1,108 @@
+/* Header */
+header {
+    background-color: #1f2937;
+    padding: 15px 30px;
+}
+
+/* Navegación */
+header nav ul {
+    display: flex;
+    justify-content: center; /* Centra los elementos */
+    align-items: center;
+    gap: 75px;               /* Espacio entre cada opción */
+    list-style: none;
+    margin: 7px;
+    padding: 0;
+}
+
+/* Enlaces */
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+header nav ul li a:hover {
+    color: #60a5fa;
+}
+
+/* Header */
+footer {
+    background-color: #1f2937;
+    padding: 15px 30px;
+}
+
+/* Navegación */
+footer nav ul {
+    display: flex;
+    justify-content: right; /* Centra los elementos */
+    align-items:center;
+    gap: 75px;               /* Espacio entre cada opción */
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+/* Enlaces */
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+footer nav ul li a:hover {
+    color: #60a5fa;
+}
+
+.MainContent{
+    padding-top: 75px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.MainText{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.MainText h2{
+    font-size: 50px;
+    margin-bottom: -15px;
+
+}
+
+.MainText h3{
+    font-size: 25px;
+    margin-bottom: -5px;
+
+}
+
+.MainText p {
+    font-size: 20px;
+}
+
+.textoPorque{
+    text-align: center;
+}
+
+.textoPorque h2{
+    font-size: 35px;
+    margin-bottom: -5px;
+}
+
+.textoPorque p {
+    font-size: 20px;
+    margin: 80px;
+}
+
